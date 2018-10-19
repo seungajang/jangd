@@ -1,0 +1,86 @@
+
+/* Components */
+html { width: 100%; height: 100%; min-width: ; overflow-x: auto; }
+body { width: 100%; height: 100%; margin: 0; }
+a { text-decoration: none; color: inherit; }
+header { font-family: 'Ubuntu', sans-serif; }
+figure { margin:0; }
+a:hover { -webkit-transition: .4s; -moz-transition:.4s; -ms-transition: .4s; -o-transition: .4s; transition: .4s; }
+button:hover { -webkit-transition: .4s; -moz-transition:.4s; -ms-transition: .4s; -o-transition: .4s; transition: .4s; }
+
+/* Basic Attribute Value */
+.f-right { float: right; }
+.f-left { float: left; }
+.block { display: block; }
+.inline { display: inline; }
+.inline-block { display:inline-block; }
+.inline-table { display:inline-table; }
+.inline-flex { display:inline-flex; }
+.flex { display: flex; }
+.table { display: table; }
+.hidden { display: none; }
+.centered { text-align: center; }
+.absolute { position: absolute; }
+.relative { position: relative; }
+.inherit { background: inherit; color: inherit; }
+.t-overflow { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.t-a-end { text-align: end; }
+.t-a-center { text-align: center; }
+.t-a-right { text-align: right; }
+.t-a-left { text-align: left; }
+.bold { font-weight: bold; }
+.card { border: 0; }
+.clearfix::after { color: both; }
+.clearfix::after, .clearfix::before { content: " "; display: table; }
+
+/* Header */
+.header { width: calc(100% - 100px); height: 60px; padding: 50px 50px 0 50px; }
+.header .left { float: left; }
+.header .left .logo-wrapper .logo-img img { width: auto; height: auto; max-width: 100%; max-height: 50px; }
+.header .right { float: right; }
+
+/* Tab Manu */
+.header .tab { line-height: 50px; }
+.header .tab button { font-weight: 400; font-size: 18px; letter-spacing: 0em; text-transform: lowercase; color: #555; margin: 0 10px; }
+.header .tab button { border: 0; background: transparent; font-family: 'Ubuntu', sans-serif; }
+.header .tab button:hover { cursor: pointer; color: #f15c5e; }
+.header .tab button:active, .header .tab button:focus { outline: none; }
+.tabcontent { display: none; }
+
+/* Main */
+.main { font-family: 'Ubuntu', sans-serif; }
+.main div div.intro { width: calc(100% - 40vw); display: block; text-align: center; margin: 15vh 20vw; }
+.main div div.intro p { font-size: 28px; color: #333; letter-spacing: 0.08em; margin: 5rem 0; }
+
+/* Index section */
+.index-wrapper .index-list .index-section-50 { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 50%; float: left; overflow: hidden; }
+.index-wrapper .index-list .index-item { height: 50vh; background-color: #333;
+    position: relative;
+    -webkit-transition: background-color 140ms cubic-bezier(.33,0,.2,1);
+    -moz-transition: background-color 140ms cubic-bezier(.33,0,.2,1);
+    -ms-transition: background-color 140ms cubic-bezier(.33,0,.2,1);
+    -o-transition: background-color 140ms cubic-bezier(.33,0,.2,1);
+    transition: background-color 140ms cubic-bezier(.33,0,.2,1);}
+.index-item-img-wrapper {
+-webkit-transition: opacity 300ms cubic-bezier(.33,0,.2,1);
+    -moz-transition: opacity 300ms cubic-bezier(.33,0,.2,1);
+    -ms-transition: opacity 300ms cubic-bezier(.33,0,.2,1);
+    -o-transition: opacity 300ms cubic-bezier(.33,0,.2,1);
+    transition: opacity 300ms cubic-bezier(.33,0,.2,1);}
+.index-wrapper .index-list .index-item .index-item-img-wrapper img { width: 100%; height: auto; }
+.index-wrapper .index-list .index-item.item1 { background: #ee4759; }
+.index-wrapper .index-list .index-item.item2 { background: #ffce02 }
+.index-wrapper .index-list .index-item.item3 { background: #ccc; }
+.index-wrapper .index-list .index-item.item4 { background: #6a97fe; }
+.index-item .index-item-title { display: none; }
+.index-item .index-item-link:hover .index-item-title { display: block; position: absolute ; top: 0; bottom: 0; right: 0; left: 0; z-index: 1; text-align: center; margin: auto; margin-top: 25%; }
+.index-item-title { font-family: 'Ubuntu', sans-serif; color: #fff; font-size: 24px; line-height: 34px; }
+.index-item-link:hover>.index-item-img-wrapper { opacity: .3; }
+
+/* Footer */
+.footer { width: 100%; height: 12vh; margin-top: 10px; display: inline-block; text-align: center; }
+.footer p { font-size: 14px; color: #555; }
+
+
+
+
