@@ -86,7 +86,7 @@ button:hover { -webkit-transition: .4s; -moz-transition:.4s; -ms-transition: .4s
 /* Responsive Menu */
 @media screen and (max-width: 600px) {
   .tab .tablinks {display: none;}
-  .tab .tablinks > a.icon {
+  .tab > a.icon {
     float: right;
     display: block;
   }
